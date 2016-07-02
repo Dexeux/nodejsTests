@@ -10,6 +10,6 @@ function start ( route , handler ){
 	}
 	//Create the server on 8080 port
 	http.createServer(onRequest).listen(8080);
-	console.log("Server started");
+	console.log("Server started on 8080");
 }
 exports.start = start;

@@ -4,7 +4,7 @@ var requestHandle = require("./requestHandle");
 
 var handle = {}
 //Define page functions for handler
-//handle["/"] = requestHandlers.start;
-//handle["/home"] = requestHandlers.homepage;
+handle["/"] = requestHandle.main;
+handle["/home"] = requestHandle.home;
 server.start(router.route,handle);
 
